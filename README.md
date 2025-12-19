@@ -29,7 +29,7 @@ Includes annoted code applying cyclepoint to behavioral data, using a [previousl
 
 - **Neuroimaging application** 
 
-Includes code applying cyclepoint to 1) structural and 2) functional neuroimaging data. Structural analyses are conducted on an open access deep phenotyping [dataset](https://doi.org/10.18112/openneuro.ds002674.v1.0.6). Functional analyses require Python. We provide step-by-step annotated code for applying cyclepoint to fMRI data in order to extract significant clusters of non-linear cycle-related activation at wholebrain level. We defined significant clusters by a voxel wise threshold of p = 0.001 and cluster-extent threshold of p = 0.05.
+Includes code applying cyclepoint to 1) structural and 2) functional neuroimaging data. Structural analyses are conducted on an open access deep phenotyping [dataset](https://doi.org/10.18112/openneuro.ds002674.v1.0.6). Functional analyses require Python. We provide step-by-step annotated code for applying cyclepoint to fMRI data. In this example, whole-brain contrasts for each participant based a first-level GLM analyses are summarized according to average contrast values within 100 cortical regions as defined by the Schaefer et al. (2018) parcellation. The included python notebook performs cyclepoint-based GAM on these average contrast values for each parcellation region and builds a brain map of cyclepoint effects.
 
 ---
 
