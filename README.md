@@ -21,7 +21,7 @@ This section of the toolkit includes both the general cyclepoint calculation, wh
 
 Includes annotated code applying cyclepoint to analysis and visualization of hormone data. The cyclepoint approach to hormone analysis is in line with the natural, non-linear changes in hormone levels across the cycle, and provides a sensitive estimate of hormonal data. This code set also provides basic physiological validation of the cyclepoint approach.
 Please note that we used standardized hormone measures in our models, and recommend the same to researchers interested in utilizing this approach.
-This set of code is applied on a mix of publicly available and unpublished datasets (references for all published work are included in folder).
+This set of code is applied on a mix of publicly available datasets (references for all published work are included in folder).
 
 - **Behavioral application** 
 
