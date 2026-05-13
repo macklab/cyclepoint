@@ -16,6 +16,7 @@ We demonstrate the utility of this method using hormonal, behavioral, and neuroi
 
 Includes code for calculating cyclepoint. Required information is: current day of cycle, total cycle length. We recommend only relying on verifiable cycle information (e.g., that collected using an app or a calendar).
 This section of the toolkit includes both the general cyclepoint calculation, which standardizes all participant cycles to a scale ranging from 0 (first day of cycle/start of follicular phase) to 1 (last fay of cycle/end of the luteal phase) in the same fashion, as well as the adjustedCyclepoint, for researchers interested in further scaling cyclepoint under the assumption that the luteal phase is less variable than the follicular phase. AdjustedCyclepoint adjusts scaling based on total cycle length and provides a more conservative estimate of point in cycle.
+For researchers with available biomarker data confirming ovulation, we also provide a function for calculation of adjustedCyclepoint based on available ovulation data.
 
 - **Hormone application** 
 
@@ -30,6 +31,10 @@ Includes annoted code applying cyclepoint to behavioral data, using a [previousl
 - **Neuroimaging application** 
 
 Includes code applying cyclepoint to 1) structural and 2) functional neuroimaging data. Structural analyses are conducted on an open access deep phenotyping [dataset](https://doi.org/10.18112/openneuro.ds002674.v1.0.6). Functional analyses require Python. We provide step-by-step annotated code for applying cyclepoint to fMRI data. In this example, whole-brain contrasts for each participant based a first-level GLM analyses are summarized according to average contrast values within 100 cortical regions as defined by the Schaefer et al. (2018) parcellation. The included python notebook performs cyclepoint-based GAM on these average contrast values for each parcellation region and builds a brain map of cyclepoint effects.
+
+- **Mock setup** 
+
+Includes mock examples of model setup for models only including cyclepoint (with or without covariates) and models examining interactions between cyclepoint and other outcomes of interest (with or without covariates). This section also includes a brief guide on model output interpretation. 
 
 ---
 
