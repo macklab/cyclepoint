@@ -48,6 +48,6 @@ Most code in the toolkit runs in **R**, but **Python** is required for initial p
 
 If you are using cyclepoint in your work, please cite these papers:
 
-Placeholder for methods pub
+Perović, M., & Mack, M. L. A standardized non-linear approach to studying menstrual cycle effects on brain and behavior. Frontiers in Cognition, 5, 1839153. https://doi.org/10.3389/fcogn.2026.1839153
 
 Perović, M., Heffernan, E. M., Einstein, G., & Mack, M. L. (2023). Learning exceptions to category rules varies across the menstrual cycle. Scientific Reports, 13(1), 21999. https://doi.org/10.1038/s41598-023-48628-x
